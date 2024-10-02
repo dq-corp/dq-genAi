@@ -20,7 +20,7 @@ h11==0.14.0
 httplib2==0.22.0
 idna==3.10
 kaggle==1.6.17
-numpy==2.1.1
+#numpy==2.1.1
 pandas==2.2.2
 proto-plus==1.24.0
 protobuf==5.28.1
