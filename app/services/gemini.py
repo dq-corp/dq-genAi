@@ -22,7 +22,7 @@ class GeminiChatBot:
         self.chat_session = self.model.start_chat(history=[])
         
         # MongoDB connection
-        self.client = MongoClient(os.environ['MONGO_URL'])
+        self.client = MongoClient(os.environ['MONGO_URI'])
         self.db = self.client["data"]
         
     def get_recent_scans(self, cust_id, days=30):

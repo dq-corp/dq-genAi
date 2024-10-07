@@ -46,3 +46,5 @@ uritemplate==4.1.1
 urllib3==2.2.3
 uvicorn==0.30.6
 webencodings==0.5.1
+dnspython==2.7.0 
+pymongo==4.10.1
